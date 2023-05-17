@@ -2,7 +2,7 @@ import "../fake-db";
 import "../styles/_app.scss";
 import React from "react";
 import { Provider } from "react-redux";
-import { Router,useHistory } from "react-router-dom";
+import { Router, useHistory } from "react-router-dom";
 import EgretTheme from "./EgretLayout/EgretTheme/EgretTheme";
 import AppContext from "./appContext";
 import history from "history.js";
@@ -17,8 +17,7 @@ import AuthGuard from "./auth/AuthGuard";
 import axios from "axios";
 import { toast } from "react-toastify";
 import ConstantList from "../app/appConfig";
-import { Store } from "./exerciseL2/redux/Store";
-
+import { Store } from "./staffManagement/redux/Store";
 
 // import UserService from "./services/UserService";
 // import httpService from "./services/HttpService";

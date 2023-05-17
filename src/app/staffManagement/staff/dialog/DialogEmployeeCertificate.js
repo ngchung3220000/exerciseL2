@@ -21,11 +21,11 @@ import {
 } from "@material-ui/core";
 import { ValidatorForm } from "react-material-ui-form-validator";
 import { useDispatch, useSelector } from "react-redux";
-import { addEmployeeCertificateRequested } from "app/exerciseL2/redux/actions/EmployeeCertificateAction";
-import { getProvincesRequested } from "app/exerciseL2/redux/actions/ProvinceAction";
+import { addEmployeeCertificateRequested } from "app/staffManagement/redux/actions/EmployeeCertificateAction";
+import { getProvincesRequested } from "app/staffManagement/redux/actions/ProvinceAction";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { getEmployeeCertificateById } from "app/exerciseL2/api/CertificateServices";
+import { getEmployeeCertificateById } from "app/staffManagement/api/CertificateServices";
 
 toast.configure({
   autoClose: 2000,

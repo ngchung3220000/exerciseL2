@@ -6,7 +6,7 @@ import ScrumBoardReducer from "../../../redux/reducers/ScrumBoardReducer";
 import NotificationReducer from "../../../redux/reducers/NotificationReducer";
 import EcommerceReducer from "../../../redux/reducers/EcommerceReducer";
 
-import EmployeeReducer from "app/exerciseL2/redux/reducers/EmployeeReducer";
+import EmployeeReducer from "app/staffManagement/redux/reducers/EmployeeReducer";
 import ProvinceReducer from "./ProvinceReducer";
 import DistrictReducer from "./DistrictReducer";
 import WardReducer from "./WardReducer";

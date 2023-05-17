@@ -4,7 +4,7 @@ import {
   deleteWard,
   editWard,
   getWards,
-} from "app/exerciseL2/api/WardServices";
+} from "app/staffManagement/api/WardServices";
 import {
   addWardFailed,
   addWardSucceeded,
@@ -15,7 +15,7 @@ import {
   getWardsFailed,
   getWardsSucceeded,
 } from "../actions/WardAction";
-import { SUCCESS } from "app/exerciseL2/constants/constants";
+import { SUCCESS } from "app/staffManagement/constants/constants";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import {

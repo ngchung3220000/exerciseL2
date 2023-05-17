@@ -14,10 +14,10 @@ import TimeSheetRoutes from "./views/TimeSheet/TimeSheetRoutes";
 import ColorRoutes from "./views/Color/ColorRoutes";
 import CategoryRoutes from "./views/Category/CategoryRoutes";
 
-import EmployeeRoutes from "./exerciseL2/staff/Employee/EmployeeRoutes";
-import ProvinceRoutes from "./exerciseL2/staff/Address/Province/ProvinceRoutes";
-import WardRoutes from "./exerciseL2/staff/Address/Ward/WardRoutes";
-import DistrictRoutes from "./exerciseL2/staff/Address/District/DistrictRoutes";
+import EmployeeRoutes from "./staffManagement/staff/Employee/EmployeeRoutes";
+import ProvinceRoutes from "./staffManagement/staff/Address/Province/ProvinceRoutes";
+import WardRoutes from "./staffManagement/staff/Address/Ward/WardRoutes";
+import DistrictRoutes from "./staffManagement/staff/Address/District/DistrictRoutes";
 
 const redirectRoute = [
   {

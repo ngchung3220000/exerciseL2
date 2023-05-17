@@ -8,7 +8,7 @@ import { useDispatch, useSelector } from "react-redux";
 import {
   deleteWardRequested,
   getWardsRequested,
-} from "app/exerciseL2/redux/actions/WardAction";
+} from "app/staffManagement/redux/actions/WardAction";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 

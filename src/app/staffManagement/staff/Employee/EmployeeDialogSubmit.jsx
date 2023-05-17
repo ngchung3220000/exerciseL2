@@ -24,13 +24,13 @@ import {
   setRowData,
   addEmployeeRequested,
   editEmployeeRequested,
-} from "app/exerciseL2/redux/actions/EmployeeAction";
+} from "app/staffManagement/redux/actions/EmployeeAction";
 
 import {
   getDistrictsByProvinceIdRequested,
   getProvincesRequested,
-} from "app/exerciseL2/redux/actions/ProvinceAction";
-import { getWardsByDistrictIdRequested } from "app/exerciseL2/redux/actions/DistrictAction";
+} from "app/staffManagement/redux/actions/ProvinceAction";
+import { getWardsByDistrictIdRequested } from "app/staffManagement/redux/actions/DistrictAction";
 import DialogEmployeeCertificate from "../dialog/DialogEmployeeCertificate";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";

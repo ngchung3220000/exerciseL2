@@ -4,9 +4,9 @@ import {
   deleteDistrict,
   editDistrict,
   getDistricts,
-} from "app/exerciseL2/api/DistrictServices";
-import { SUCCESS } from "app/exerciseL2/constants/constants";
-import { getWardsByDistrictId } from "app/exerciseL2/api/EmployeeServices";
+} from "app/staffManagement/api/DistrictServices";
+import { SUCCESS } from "app/staffManagement/constants/constants";
+import { getWardsByDistrictId } from "app/staffManagement/api/EmployeeServices";
 import {
   addDistrictFailed,
   addDistrictSucceeded,

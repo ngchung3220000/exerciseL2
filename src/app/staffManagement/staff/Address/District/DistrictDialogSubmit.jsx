@@ -15,11 +15,11 @@ import {
 } from "@material-ui/core";
 import { TextValidator, ValidatorForm } from "react-material-ui-form-validator";
 import { useDispatch, useSelector } from "react-redux";
-import { getProvincesRequested } from "app/exerciseL2/redux/actions/ProvinceAction";
+import { getProvincesRequested } from "app/staffManagement/redux/actions/ProvinceAction";
 import {
   addDistrictRequested,
   editDistrictRequested,
-} from "app/exerciseL2/redux/actions/DistrictAction";
+} from "app/staffManagement/redux/actions/DistrictAction";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 

@@ -3,8 +3,8 @@ import {
   deleteProvince,
   editProvince,
   getProvinces,
-} from "app/exerciseL2/api/ProvinceServices";
-import { SUCCESS } from "app/exerciseL2/constants/constants";
+} from "app/staffManagement/api/ProvinceServices";
+import { SUCCESS } from "app/staffManagement/constants/constants";
 import { call, put, takeEvery } from "redux-saga/effects";
 import {
   addProvinceFailed,
@@ -18,7 +18,7 @@ import {
   getProvincesFailed,
   getProvincesSucceeded,
 } from "../actions/ProvinceAction";
-import { getDistrictsByProvinceId } from "app/exerciseL2/api/EmployeeServices";
+import { getDistrictsByProvinceId } from "app/staffManagement/api/EmployeeServices";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import {

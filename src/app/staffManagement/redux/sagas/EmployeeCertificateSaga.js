@@ -5,8 +5,8 @@ import {
   addEmployeeCertificate,
   editEmployeeCertificate,
   getEmployeeCertificates,
-} from "app/exerciseL2/api/CertificateServices";
-import { SUCCESS } from "app/exerciseL2/constants/constants";
+} from "app/staffManagement/api/CertificateServices";
+import { SUCCESS } from "app/staffManagement/constants/constants";
 import {
   addEmployeeCertificateFailed,
   addEmployeeCertificateSucceeded,

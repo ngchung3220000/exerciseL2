@@ -10,7 +10,7 @@ import DialogDelete from "../../dialog/DialogDelete";
 import {
   deleteDistrictRequested,
   getDistrictsRequested,
-} from "app/exerciseL2/redux/actions/DistrictAction";
+} from "app/staffManagement/redux/actions/DistrictAction";
 
 toast.configure({
   autoClose: 2000,

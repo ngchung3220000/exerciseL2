@@ -14,10 +14,10 @@ import {
   deleteEmployee,
   editEmployee,
   getEmployees,
-} from "app/exerciseL2/api/EmployeeServices";
+} from "app/staffManagement/api/EmployeeServices";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { SUCCESS } from "app/exerciseL2/constants/constants";
+import { SUCCESS } from "app/staffManagement/constants/constants";
 import {
   ADD_EMPLOYEE_REQUESTED,
   DELETE_EMPLOYEE_REQUESTED,

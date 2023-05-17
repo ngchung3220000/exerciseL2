@@ -1,10 +1,10 @@
-import { SUCCESS } from "app/exerciseL2/constants/constants";
+import { SUCCESS } from "app/staffManagement/constants/constants";
 import { all, call, put, takeEvery } from "redux-saga/effects";
 import {
   addEmployeeCertificate,
   getCertificates,
   getEmployeeCertificates,
-} from "app/exerciseL2/api/CertificateServices";
+} from "app/staffManagement/api/CertificateServices";
 import {
   getCertificatesFailed,
   getCertificatesSucceeded,

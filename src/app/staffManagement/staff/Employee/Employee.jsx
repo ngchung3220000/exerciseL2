@@ -12,9 +12,9 @@ import {
 } from "../../redux/actions/EmployeeAction";
 import "react-toastify/dist/ReactToastify.css";
 
-import { getCertificatesRequested } from "app/exerciseL2/redux/actions/CertificateAction";
-import { getEmployeeCertificatesRequested } from "app/exerciseL2/redux/actions/EmployeeCertificateAction";
-import { getEmployees2 } from "app/exerciseL2/api/EmployeeServices";
+import { getCertificatesRequested } from "app/staffManagement/redux/actions/CertificateAction";
+import { getEmployeeCertificatesRequested } from "app/staffManagement/redux/actions/EmployeeCertificateAction";
+import { getEmployees2 } from "app/staffManagement/api/EmployeeServices";
 
 toast.configure({
   autoClose: 2000,
